@@ -1,0 +1,16 @@
+footer {
+  background: #414141; }
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  display: block; }
+
+.social-link- vk {
+  background: url("/images/icons/vk.png") 0 0 no-repeat; }
+
+.social-link- fb {
+  background: url("/images/icons/fb.png") 0 0 no-repeat; }
+
+.social-link- tw {
+  background: url("/images/icons/tw.png") 0 0 no-repeat; }

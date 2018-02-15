@@ -1,0 +1,42 @@
+.nav ul li{
+	margin: 0 auto;
+	line-height: 60px;
+	display: inline-block;
+	text-align: center;
+}
+
+.nav-item ul li a{
+	padding-left: 15px;
+	padding-right: 15px;
+	color: $white;
+	font-size: 25px;
+	text-decoration: none;	
+	display: inline-block;
+
+	&:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.1);
+	color: #FFFFDB;
+	}
+}
+
+.social ul li{
+	padding: 10px 5px 10px 5px;
+	float: right;
+	text-decoration: none;
+
+	&:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.1);
+	color: #FFFFDB;
+	}
+
+}
+
+
+img{
+	height: 40px;
+	width: auto;
+	opacity: 0.7;
+}
+

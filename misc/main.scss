@@ -1,0 +1,12 @@
+$background: blue;
+
+.user-avatar{
+	$background: green;
+	height: 300px;
+	background: $background;
+}
+
+.user-name{
+	height: 300px;
+	background:lighten($background, 20%) ;
+}

@@ -1,0 +1,39 @@
+ .nav-link{
+ 	color: red;
+ }
+
+ .nav-item-active .nav-link {
+ 	color: blue;
+ } 
+ .social-link{
+ 	display: block;
+ 	width: 40px;
+ 	height: 40px;
+ }
+
+ .sosials-link-vk{
+
+ }
+
+ .btn{
+ 	padding: 10px 35px;
+ 	border: 2px solid red;
+ 	display: inline-block;
+ 	color: red;
+ 	border-radius: 20px;
+ 	text-decoration: none;
+ }
+
+ .btn-icon{
+ 	width: 20px;
+ 	height: 20px;
+	background: red;
+	display: inline-block;
+	vertical-align: middle;
+ }
+
+ .btn-text{
+ 	display: inline-block;
+ 	vertical-align: middle;
+
+ }	

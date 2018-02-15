@@ -1,0 +1,22 @@
+/* vars */
+$white: #C6C6C1;
+$blue: #33c1e3;
+$red: #fff;
+$black: #414141;
+$back-col: #161616;
+
+
+/* layouts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+@import "fonts/fonts.scss";
+@import "misc/mixins.scss";
+@import "misc/normalize.scss";
+@import "misc/adjustment.scss";
+@import "plugins/font-awesome.scss";
+
+/* styles */
+@import "sections/header.scss";
+@import "sections/footer.scss";
+@import "sections/content.scss";
+@import "sections/contacts.scss";

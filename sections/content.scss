@@ -1,0 +1,49 @@
+
+.container{
+	position: relative;
+	width: 700px;
+	min-height: 300px;
+	display: block;
+	margin: 0 auto;
+	background: transparent;
+	border: 2px solid $back-col;
+	opacity: 0.8;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Bitter', serif;
+
+}
+
+.about{
+	display: inline-block;
+	margin-top: 10px; 
+	margin-bottom: 10px;
+	width: 680px;
+	height: 315px;
+	background: $back-col;
+	color: $white;
+}
+
+.greeting-title{
+	display: block;
+	font-size: 110px;
+	margin-bottom: -20px;
+	/* font-family: 'Open Sans Condensed' , sans-serif; */
+}
+
+.greeting-sub{
+	display: inline-block;
+	width: 270px;
+	font-size: 20px;
+}
+
+.welcome-title{
+	display: block;
+	font-size: 40px;
+}
+
+.welcome-sub{
+	display: inline-block;
+	width: 270px;
+	font-size: 20px;
+}

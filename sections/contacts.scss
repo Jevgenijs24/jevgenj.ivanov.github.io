@@ -1,0 +1,43 @@
+.container-contact{
+	position: relative;
+	width: 700px;
+	min-height: 300px;
+	display: block;
+	margin: 0 auto;
+	background: $black;
+	opacity: 0.8;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Bitter', serif;
+	color: $white;
+
+}
+
+.content-title{
+	display: block;
+}
+
+
+.social{
+	position: absolute;
+	margin: 0 auto;
+	display: block;
+}
+
+.social ul li{
+	padding: 10px 5px 10px 5px;
+	text-decoration: none;
+	
+	&:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.1);
+	color: #FFFFDB;
+	}
+
+}
+
+img{
+	height: 40px;
+	width: auto;
+	opacity: 0.7;
+}
